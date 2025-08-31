@@ -10,17 +10,16 @@ This project implements a **machine learning solution** to predict customer chur
 ## 📊 Dataset
 - **Source:** [Your dataset source / synthetic]  
 - **Number of records:** 1,000+ customers  
-- **Columns:**
-| Feature                    | Type        | Description                          |                                                                                                                                                                                            
-|----------------------------|-------------|--------------------------------------|                                                                                                                                                                                            
-| ContractType               | Categorical | Month-to-month / One year / Two year |                                                                                                                                                                                            
-| TechSupport                | Categorical | Yes / No                             |                                                                                                                                                                                            
-| Gender                     | Categorical | Male / Female                        |                                                                                                                                                                                            
-| Tenure                     | Numerical   | Number of months customer stayed     |                                                                                                                                                                                            
-| MonthlyCharges             | Numerical   | Monthly subscription fee             |                                                                                                                                                                                            
-| TotalCharges               | Numerical   | Total billed amount                  |                                                                                                                                                                                            
-| InternetService_FiberOptic | Categorical | Yes / No                             |                                                                                                                                                                                            
-| Churn                      | Target      | Customer churn (Yes / No)            |                                                                                                                                                                                            
+**Features:**
+- **ContractType** (Categorical): Month-to-month / One year / Two year  
+- **TechSupport** (Categorical): Yes / No  
+- **Gender** (Categorical): Male / Female  
+- **Tenure** (Numerical): Number of months customer stayed  
+- **MonthlyCharges** (Numerical): Monthly subscription fee  
+- **TotalCharges** (Numerical): Total billed amount  
+- **InternetService_FiberOptic** (Categorical): Yes / No  
+- **Churn** (Target): Customer churn (Yes / No)
+                                                                                                                                                                                     
 
 
 - **Class distribution:**  
