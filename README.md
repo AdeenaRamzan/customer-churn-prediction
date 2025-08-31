@@ -8,9 +8,10 @@ This project implements a **machine learning solution** to predict customer chur
 ---
 
 ## 📊 Dataset
-- **Source:** [Your dataset source / synthetic]  
-- **Number of records:** 1,000+ customers  
-**Features:**
+- **Source:** (https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis) 
+- **Number of records:** 1,000+ customers
+
+  **Features:**
 - **ContractType** (Categorical): Month-to-month / One year / Two year  
 - **TechSupport** (Categorical): Yes / No  
 - **Gender** (Categorical): Male / Female  
