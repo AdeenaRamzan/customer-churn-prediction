@@ -1,0 +1,50 @@
+# ------------------------
+# Python cache / compiled
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ------------------------
+# Jupyter Notebook
+# ------------------------
+.ipynb_checkpoints/
+
+# ------------------------
+# Virtual environments
+# ------------------------
+venv/
+env/
+*.env
+
+# ------------------------
+# System files
+# ------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------
+# Logs
+# ------------------------
+*.log
+
+# ------------------------
+# Build / distribution
+# ------------------------
+*.egg-info/
+dist/
+build/
+
+# ------------------------
+# IDE / editor
+# ------------------------
+.vscode/
+.idea/
+
+# ------------------------
+# Data / models (optional)
+# ------------------------
+data/*.csv
+data/*.xlsx
+models/*.pkl
+models/*.joblib
