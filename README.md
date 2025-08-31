@@ -87,3 +87,4 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
+DEMO: https://customer-churn-prediction-ml-model.streamlit.app/
