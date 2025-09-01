@@ -2,17 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-st.markdown(
-    f"""
-    <style>
-    .stApp {{
-        background-color: #0E1117;
-        color: #FFFFFF;  /* optional: make text white for contrast */
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 rf_model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 columns = joblib.load('columns.pkl')
