@@ -2,18 +2,25 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-color: #0E1117;
+        color: #FFFFFF;  /* optional: make text white for contrast */
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 rf_model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 columns = joblib.load('columns.pkl')
 
-# Centered Heading
-st.markdown("<h1 style='text-align: center; font-size:3.5rem; color: #ffff;'>Customer Churn Prediction</h1>", unsafe_allow_html=True)
+st.title("Customer Churn Prediction")
 st.divider()
-# Centered Sub-heading / Instruction
-st.markdown("<h4 style='text-align: center; color: #ffff;'>Enter customer details to predict churn:</h4>", unsafe_allow_html=True)
 
-
-# st.write("Enter customer details to predict churn:")
+st.write("Enter customer details to predict churn:")
 st.divider()
 
 
