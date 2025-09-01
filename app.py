@@ -7,7 +7,7 @@ rf_model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')
 columns = joblib.load('columns.pkl')
 
-st.title("Customer Churn Prediction")
+st.title("Customer Churn Prediction 💙 ")
 st.divider()
 
 st.write("Enter customer details to predict churn:")
@@ -62,5 +62,5 @@ if st.button("Predict Churn"):
     st.write("Churn Probability:")
     st.progress(prob)  # prob should be 0-1, e.g., 0.77
     if pred == 1:
-        st.snow()
+        st.balloons()
 
